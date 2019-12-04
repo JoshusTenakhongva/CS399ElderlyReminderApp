@@ -21,7 +21,7 @@ class TaskActivity : Fragment() {
     ): View? {
         dashboardViewModel =
             ViewModelProviders.of(this).get(TaskViewModel::class.java)
-        val root = inflater.inflate(R.layout.Task_layout, container, false)
+        val root = inflater.inflate(R.layout.task_layout, container, false)
         val textView: TextView = root.findViewById(R.id.text_dashboard)
         dashboardViewModel.text.observe(this, Observer {
             textView.text = it

@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Elderly Reminder App</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_task">Tasks</string>
+    <string name="title_weather">Weather</string>
+
+    <string name="task_button_desc">Floating action button for submitting a task</string>
 </resources>

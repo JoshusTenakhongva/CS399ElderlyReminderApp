@@ -8,18 +8,18 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.elderlyreminderapp.ui.home.CalendarActivity"
-        android:label="@string/title_home"
+        android:label="@string/title_calendar"
         tools:layout="@layout/calendar_layout" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.example.elderlyreminderapp.ui.dashboard.TaskActivity"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/Task_layout" />
+        android:label="@string/title_task"
+        tools:layout="@layout/task_layout" />
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.example.elderlyreminderapp.ui.notifications.WeatherActivity"
-        android:label="@string/title_notifications"
+        android:label="@string/title_weather"
         tools:layout="@layout/weather_layout" />
 </navigation>

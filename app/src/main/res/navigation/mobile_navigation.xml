@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.elderlyreminderapp.ui.home.HomeFragment"
+        android:name="com.example.elderlyreminderapp.ui.home.CalendarActivity"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/calendar_layout" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.example.elderlyreminderapp.ui.dashboard.DashboardFragment"
+        android:name="com.example.elderlyreminderapp.ui.dashboard.TaskActivity"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/Task_layout" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.example.elderlyreminderapp.ui.notifications.NotificationsFragment"
+        android:name="com.example.elderlyreminderapp.ui.notifications.WeatherActivity"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/weather_layout" />
 </navigation>
